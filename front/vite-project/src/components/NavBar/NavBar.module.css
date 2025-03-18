@@ -1,0 +1,111 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15vh;
+    padding: 20px 1%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8) 70%, rgba(255, 255, 255, 0));
+    z-index: 100;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+ 
+
+}
+
+.logo {
+    filter: drop-shadow(1px 1px 5px #004200);
+    width: 9vw;
+    margin-top: -25px;
+    position: relative; 
+    top: -10px; 
+
+}
+
+.listAndUserContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.userContainer{
+    width: 4vw;
+    height: 8vh;
+    border-radius: 50%;
+    background-image: url("/public/userDefault.png");
+    background-size: 58%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    margin: 5px .5rem 5px 0;
+    cursor: pointer;
+}   
+
+.userDefaultNavbar{
+    width: 3vw;
+    margin: auto;
+    margin-left: 40px;
+}
+
+.listNavBar{
+    display: flex;
+    margin: 1.2rem 1rem 0px 0px;
+}
+
+.itemlistNavBar{
+    font-family: "Barlow Condensed";
+    position: relative;
+    font-size: 21px;
+    font-weight: 500;
+    color: #000000;
+    margin-left: 40px;
+    transition: .3s;
+}
+
+.itemlistNavBar:last-child{
+    margin-right: 10px;
+}
+
+.itemlistNavBar::before{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #000000;
+    transition: .3s;
+}
+
+.itemlistNavBar:hover::before{  
+    width: 100%;
+}
+
+.itemlistNavBar:active{
+    color: #5c5c5c;
+}
+
+.itemlistNavBar:active::before{
+    background-color: #5c5c5c;
+}
+
+.logoutButton{
+    color:#000000
+}
+
+.logoutButton:hover{
+    color: #ff0000;
+}
+
+.logoutButton::before{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #ff0000;
+    transition: .3s;
+}

@@ -1,0 +1,68 @@
+.appointmentContainer{
+    backdrop-filter: blur(10px);
+    box-shadow: 1px 1px 8px 1px rgb(139, 160, 99);
+    background-color: rgba(173, 255, 47, 0.2);
+    border-radius: 20px;
+    border-left: 8px solid green; 
+    border-right: 8px solid green;
+
+    width: 90%;
+    height: 10vh;
+
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.cancelledAppointment{
+    background-color: rgba(255, 0, 0, 0.3); 
+    border-left: 8px solid red;
+    border-right: 8px solid red;
+    
+    box-shadow: 1px 1px 8px 1px rgb(160, 99, 99);
+
+}
+
+.appoinmentDetails{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+
+    font-family: Kanit;
+}
+
+button:disabled{
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.buttomCancel{
+    color: white;
+    font-family: "Barlow Condensed";
+    font-size: 1.2rem;
+    padding: 4px;
+
+}
+
+.buttomCancel:disabled{
+    cursor: not-allowed;
+}
+
+.buttomCancelContainer{
+    background-color: black;
+    border-radius: 20px;
+    height: 7vh;
+    margin-top: 10px;
+    margin-right: 10px;
+    transition: .2s;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttomCancelContainer:active{
+    background-color: #292929;
+}
+
+

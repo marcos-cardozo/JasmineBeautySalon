@@ -1,0 +1,101 @@
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+  
+.loginForm {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 20px;
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 1px 1px 8px 1px rgb(167, 167, 167);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+  
+.loginTitle {
+    font-family: "Hubot Sans", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+.loginLabel {
+    font-family: "Jost", sans-serif;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 8px;
+}
+  
+.loginInput {
+    font-family: "Jost", sans-serif;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #000000;
+}
+  
+.loginButtonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.loginButton {
+    width: 40%;
+    padding: 12px;
+    height: 20px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #000000;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+  
+.loginButton:hover {
+    background-color: #333333;
+}
+
+.errorLabel {
+    font-family: "Jost", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ff4d4f;
+    margin-top: -15px;
+    margin-bottom: 10px;
+    text-align: center;
+    display: block;
+}
+
+.linkLabel{
+    font-family: "Jost", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000000;
+    text-align: center;
+}
+
+.linkLabelReal{
+    color: #000000;
+    text-decoration: underline;
+}
+
+.linkLabelReal:hover{
+    color: white;
+}

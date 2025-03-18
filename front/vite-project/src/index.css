@@ -1,0 +1,71 @@
+/* reset.css */
+
+/* Elimina margen y padding predeterminados */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Incluye el padding y el borde en el tamaño total de los elementos */
+}
+
+/* Asegura que los elementos ocupen el ancho total */
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+/* Usa una tipografía predeterminada más consistente */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5; /* Mejora la legibilidad */
+  background-color: #fff; /* Fondo blanco */
+  color: #000; /* Texto negro */
+}
+
+/* Elimina estilos predeterminados de listas */
+ul, ol {
+  list-style: none;
+}
+
+/* Quita subrayados de enlaces por defecto */
+a {
+  text-decoration: none;
+  color: inherit; /* Toma el color del texto del padre */
+}
+
+/* Restablece bordes y fondo de tablas */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Restablece los estilos de las imágenes */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Quita los estilos predeterminados de botones */
+button {
+  all: unset; /* Elimina todos los estilos predeterminados */
+  cursor: pointer;
+}
+
+/* Quita estilos predeterminados de campos de formulario */
+input, textarea {
+  border: none;
+  outline: none;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Resetea el estilo de las cabeceras */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+/* Asegura que los bloques ocupen el espacio completo */
+main, section, article, aside, header, footer, nav {
+  display: block;
+}

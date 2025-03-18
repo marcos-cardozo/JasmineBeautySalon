@@ -1,0 +1,94 @@
+.ServicesContainer{
+  max-height: 2000px;
+  margin-bottom: 2rem;
+}
+
+.CarouselContainer {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 4rem;
+    backdrop-filter: blur(10px);
+    box-shadow: 1px 1px 8px 1px rgb(167, 167, 167);
+    border-radius: 20px;
+    margin-bottom: 50px; 
+}
+
+  .Carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .SectionTitle {
+    color: white;
+    font-size: 2.5rem;
+    margin-left: 5rem;
+    font-family: "Hubot Sans", sans-serif;
+    background-color: black;
+    box-shadow: 1px 1px 8px 1px black;
+    border-radius: 20px;
+    width: 25vw;
+    padding: 5px;
+    margin: auto;
+    margin-top: 8rem;
+  }
+  
+  
+  .ServiceImage {
+    width: auto; 
+    max-width: 100%; 
+    height: auto; 
+    max-height: 300px; 
+    object-fit: contain;
+    border-radius: 20px;
+  }
+  
+  .ServiceInfo {
+    margin-top: 15px;
+  }
+  
+  .ServiceTitle {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    font-family: "Hubot Sans", sans-serif;
+  }
+  
+  .ServiceDescription {
+    font-size: 16px;
+    color: #ffffff;
+    font-family: "Jost", sans-serif;
+  }
+  
+  .PrevButton,
+  .NextButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 18px;
+  }
+  
+  .PrevButton {
+    left: 10px;
+  }
+  
+  .NextButton {
+    right: 10px;
+  }
+  
+  .PrevButton:hover,
+  .NextButton:hover {
+    background-color: black;
+  }
+  

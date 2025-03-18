@@ -1,0 +1,55 @@
+.container{
+    display: flex;
+}
+
+.containerText{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    height: 60vh;
+    margin-top: 6rem;
+}
+
+.tituloPrincipal{
+    color: white;
+    font-size: 2.5rem;
+    margin-top: 6rem;
+    margin-left: 5rem;
+    font-family: "Hubot Sans", sans-serif;
+    background-color: black;
+    box-shadow: 1px 1px 8px 1px black;
+    border-radius: 20px;
+    width: 42vw;
+    padding: 5px;
+}
+
+.parrafoPrincipal{
+    color: black;
+    backdrop-filter: blur(10px);
+    box-shadow: 1px 1px 8px 1px rgb(167, 167, 167);
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    border-radius: 20px;
+    width: 50vw;
+    font-family: "Jost", sans-serif;
+    padding: 15px;
+}
+
+.imagenPrincipal{
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 1px 1px 6px 1px gray;
+}
+
+.imgenPrincipalContainer{
+  width: 30vw;
+  height: 55vh;
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin-top: 8rem;
+  box-shadow: 1px 1px 8px 1px gray;
+}
